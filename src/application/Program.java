@@ -34,6 +34,7 @@ public class Program {
 				.map(x -> x * 10)//O map transforma em outra stream. Pega os pares do filter e multiplica cada elemn. por 10
 				.collect(Collectors.toList());//operação terminal transformar stream em uma lista
 		
+		//pega os pares no caso 4 e o 10 e multiplica por 10
 		System.out.println(Arrays.toString(newList.toArray()));
 	
 	}
